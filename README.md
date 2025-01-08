@@ -8,9 +8,9 @@ Or `brew tap orthesnowjames/kiosk` and then `brew install <formula>`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
-```ruby
-tap "orthesnowjames/kiosk"
-brew "<formula>"
+```bash
+brew tap orthesnowjames/kiosk
+brew install kiosk-setup
 ```
 
 ## Documentation
