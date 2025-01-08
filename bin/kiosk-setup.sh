@@ -20,7 +20,7 @@ elif command -v zypper &> /dev/null; then
     sudo zypper refresh
     sudo zypper install -y xorg-x11-server xinit xorg-x11-apps curl
 elif command -v pacman &> /dev/null; then
-    sudo pacman -Syu --noconfirm xorg-server xorg-xinit curl
+    sudo pacman -Syu --noconfirm xorg-server xorg-xinit xorg-xinit
 elif command -v apk &> /dev/null; then
     sudo apk update
     sudo apk add xorg-server xinit xorg-server-utils curl
