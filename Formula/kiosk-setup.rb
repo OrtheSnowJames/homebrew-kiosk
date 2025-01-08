@@ -1,7 +1,7 @@
 class KioskSetup < Formula
   desc "Setup minimal window management to launch Google Chrome in fullscreen"
   homepage "https://github.com/OrtheSnowJames/homebrew-kiosk"
-  version "1.0.0"
+  version "1.0.1"
 
   # URL to the raw setup script in your GitHub repository
   url "https://raw.githubusercontent.com/OrtheSnowJames/homebrew-kiosk/main/bin/kiosk-setup.sh"
