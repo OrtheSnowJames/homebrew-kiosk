@@ -5,7 +5,7 @@ class KioskSetup < Formula
 
   # URL to the raw setup script in your GitHub repository
   url "https://raw.githubusercontent.com/OrtheSnowJames/homebrew-kiosk/main/bin/kiosk-setup.sh"
-  sha256 "091432fb88fe9f08db02f7cba87c0ae130876b4d2b5764508bc9efb5475f1763"
+  sha256 "6cee74a7a4a0def2857563aa4368a99d9b99d3af6451ad8434c1f2c47692362b"
 
   depends_on "curl" => :build
 
